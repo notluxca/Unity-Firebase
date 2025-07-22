@@ -85,10 +85,11 @@ public class LoginWithGoogle : MonoBehaviour
                     else
                     {
                         signInCompleted.SetResult(((Task<FirebaseUser>)authTask).Result);
-                        Debug.Log("Success");
+                        Debug.LogError("Success");
                         user = auth.CurrentUser;
-                        Username.text = user.DisplayName;
-                        UserEmail.text = user.Email;
+                        Username.SetText(user.DisplayName);
+                        UserEmail.SetText(user.Email);
+                        Debug.LogError($"{user.DisplayName}");
 
                         StartCoroutine(LoadImage(CheckImageUrl(user.PhotoUrl.ToString())));
                     }
@@ -121,7 +122,15 @@ public class LoginWithGoogle : MonoBehaviour
         {
             Debug.Log("Error loading image: " + www.error);
         }
+    }
 
+    public void ManualUserInfoUpdate()
+    {
+        user = auth.CurrentUser;
+        Username.SetText(user.DisplayName);
+        UserEmail.SetText(user.Email);
+        Debug.LogError($"{user.DisplayName}");
 
+        StartCoroutine(LoadImage(CheckImageUrl(user.PhotoUrl.ToString())));
     }
 }
