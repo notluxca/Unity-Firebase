@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_android_client_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">1039547420313</string>
+  <string name="google_storage_bucket" translatable="false">unitytesting-95fce.firebasestorage.app</string>
+  <string name="project_id" translatable="false">unitytesting-95fce</string>
+  <string name="google_api_key" translatable="false">AIzaSyDR0jKanOCOuTC3KFsHC70ho3sG5tJbBHo</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDR0jKanOCOuTC3KFsHC70ho3sG5tJbBHo</string>
+  <string name="google_app_id" translatable="false">1:1039547420313:android:2b307d8f40f12e09f8f208</string>
+  <string name="default_android_client_id" translatable="false">1039547420313-vv1if0975t5hdreir34ogr9gb6vdcgn4.apps.googleusercontent.com</string>
+  <string name="default_web_client_id" translatable="false">1039547420313-h30f3dja2hn5k9b264ismad6g35rp70p.apps.googleusercontent.com</string>
+</resources>
