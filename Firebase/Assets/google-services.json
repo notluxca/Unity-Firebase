@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1039547420313",
+    "project_id": "unitytesting-95fce",
+    "storage_bucket": "unitytesting-95fce.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039547420313:android:2b307d8f40f12e09f8f208",
+        "android_client_info": {
+          "package_name": "com.LucasFernandes.FirebasePlayground"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039547420313-vv1if0975t5hdreir34ogr9gb6vdcgn4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.LucasFernandes.FirebasePlayground",
+            "certificate_hash": "84efe749e1e9c074b1661594ec15527d4afc39ec"
+          }
+        },
+        {
+          "client_id": "1039547420313-h30f3dja2hn5k9b264ismad6g35rp70p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR0jKanOCOuTC3KFsHC70ho3sG5tJbBHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039547420313-h30f3dja2hn5k9b264ismad6g35rp70p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
